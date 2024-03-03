@@ -1,0 +1,24 @@
+@@include('page-header.html', { "title": "Blog" })
+
+<!-- Blog -->
+<section>
+  <div class="container-xxl">
+    <div class="row justify-center">
+      <div class="col-12 mb-8 md:col-6 lg:col-5">
+        @@include("components/blog-card.html", {"title": "The Real Product From the Buyers improvements in Overflow basis.", "image": "01.jpg"})
+      </div>
+      <div class="col-12 mb-8 md:col-6 lg:col-5">
+        @@include("components/blog-card.html", {"title": "Why you should launch your product in phases not after done", "image": "02.jpg"})
+      </div>
+      <div class="col-12 mb-8 md:col-6 lg:col-5">
+        @@include("components/blog-card.html", {"title": "The Real Product From the Buyers improvements in Overflow basis.", "image": "03.jpg"})
+      </div>
+      <div class="col-12 mb-8 md:col-6 lg:col-5">
+        @@include("components/blog-card.html", {"title": "The Real Product From the Buyers improvements in Overflow basis.", "image": "04.jpg"})
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Blog -->
+
+@@include('components/pagination.html')
